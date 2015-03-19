@@ -1,5 +1,12 @@
-<ul>
-    <li ng-repeat="log in logs track by $index">
-        {{log}}
-    </li>
-</ul>
+<div>
+    <ul ng-repeat="(k,v) in logs">
+        <li>
+            {{k}}
+            <ul ng-repeat="(key, value) in v">
+                <li>
+                    {{value.content}}
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>

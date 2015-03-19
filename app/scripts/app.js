@@ -12,7 +12,7 @@ angular
     .module('angularEventviewerApp', [
         'ngRoute',
         'ngSanitize',
-        'ngEventViewer'
+        'axEventViewer'
     ])
     .config(function($routeProvider) {
         $routeProvider
