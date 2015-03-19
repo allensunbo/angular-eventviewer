@@ -40,7 +40,7 @@ angular.module('axEventViewer', [])
                                 groupPriority: 0
                             });
                         } else {
-                           
+
                         }
                     }
 
