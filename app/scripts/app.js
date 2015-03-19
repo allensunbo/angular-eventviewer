@@ -10,8 +10,13 @@
  */
 angular
     .module('angularEventviewerApp', [
+        'ngAnimate',
+        'ngTouch',
         'ngRoute',
         'ngSanitize',
+        'ui.grid',
+        'ui.grid.grouping',
+        'ui.grid.pinning',
         'axEventViewer'
     ])
     .config(function($routeProvider) {
